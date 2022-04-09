@@ -2,11 +2,11 @@ Prometheus
 # 前言
 本文主要介绍的是Prometheus采集数据，主要就Prometheus本身功能进行介绍
 # 官网
-https://prometheus.io/
+https://prometheus.io/  
 https://github.com/prometheus/prometheus
 # 概述
 Prometheus 是一个云原生计算基金会项目，是一个系统和服务监控系统。它以给定的时间间隔从配置的目标收集指标，评估规则表达式，显示结果，并在观察到指定条件时触发警报。  
-Prometheus 与其他指标和监控系统的区别在于：  
+Prometheus 与其他指标和监控系统的区别在于：
 * 多维数据模型（由指标名称和键/值维度集定义的时间序列）
 * PromQL，一种强大且灵活的查询语言，可利用此维度
 * 不依赖分布式存储；单个服务器节点是自治的
